@@ -1,0 +1,7 @@
+# Example configuration for the pipeline in Snakefile.
+# Paths below are placeholders — point them at your own copies of the
+# reference genome and SnpEff config to run the pipeline.
+
+reference_fasta: "data/reference/Lmexicana.fasta"
+ploidy: 2
+snpeff_config: "config/snpEff.config"
